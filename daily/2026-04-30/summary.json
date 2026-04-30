@@ -1,1 +1,9 @@
-{"date":"2026-04-30","mode":"analisis_completo_incremental","total_games_found":11,"eligible_count":11,"skipped_count":0,"updated_games":["Giants @ Phillies makeup Apr 29","Blue Jays @ Twins"],"score_badges_refreshed":true,"audit_output":{"audit_passed":true,"severity":"pass","checks":{"no_momios_used":true,"no_sportsbook_sources":true,"no_market_lines_used":true,"only_eligible_games_analyzed":true,"probabilities_sum_to_100":true}},"notes":["Se agregaron juegos que pasaron de pendiente a elegible.","Los marcadores oficiales solo actualizan estado visual y no recalculan probabilidades ni props."]}
+{
+  "date":"2026-04-30",
+  "mode":"analisis_completo_incremental",
+  "timezone":"America/Mazatlan",
+  "source_urls":["https://www.mlb.com/starting-lineups/2026-04-30","https://www.mlb.com/scores/2026-04-30","https://www.mlb.com/standings/"],
+  "summary":{"total_games_found":11,"eligible_count":11,"skipped_count":0,"analyzed_cards":11,"pending_cards":0},
+  "incremental_update":{"should_update_index":true,"reason":"Actualización visual de estados, marcadores finales/en curso y streaks. No se recalcularon probabilidades ni props por cambios de score."},
+  "audit_output":{"audit_passed":true,"severity":"pass","checks":{"no_momios_used":true,"no_sportsbook_sources":true,"no_market_lines_used":true,"only_eligible_games_analyzed":true,"probabilities_sum_100":true,"props_have_sports_reasoning":true}}
+}
