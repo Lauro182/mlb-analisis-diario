@@ -1,0 +1,65 @@
+{
+  "date": "2026-04-30",
+  "generated_at": "2026-04-30T19:17:00Z",
+  "source_url": "https://www.mlb.com/starting-lineups/2026-04-30",
+  "standings_url": "https://www.mlb.com/standings/",
+  "public_html_path": "docs/index.html",
+  "historical_html_path": "daily/2026-04-30/index.html",
+  "total_games_found": 11,
+  "eligible_games": 8,
+  "skipped_games": 3,
+  "audit_passed": true,
+  "published_via": "github_git_data_api",
+  "publication_mode": "first_publication",
+  "incremental_plan_output": {
+    "date": "2026-04-30",
+    "target_public_path": "docs/index.html",
+    "should_update_index": true,
+    "reason": "docs/index.html no estaba disponible en raw GitHub; se trató como primera publicación.",
+    "first_publication": true,
+    "already_analyzed_games": [],
+    "newly_eligible_games": [
+      {"game_id":"game_001","matchup_key":"Cardinals @ Pirates"},
+      {"game_id":"game_002","matchup_key":"Nationals @ Mets"},
+      {"game_id":"game_003","matchup_key":"D-backs @ Brewers"},
+      {"game_id":"game_004","matchup_key":"Royals @ Athletics"},
+      {"game_id":"game_005","matchup_key":"Tigers @ Braves"},
+      {"game_id":"game_006","matchup_key":"Astros @ Orioles"},
+      {"game_id":"game_007","matchup_key":"Giants @ Phillies"},
+      {"game_id":"game_008","matchup_key":"Rockies @ Reds"}
+    ],
+    "changed_games_to_reanalyze": [],
+    "still_pending_games": [
+      {"game_id":"game_009","matchup_key":"Giants @ Phillies","reason_code":"MISSING_AWAY_STARTER"},
+      {"game_id":"game_010","matchup_key":"Blue Jays @ Twins","reason_code":"MISSING_LINEUPS"},
+      {"game_id":"game_011","matchup_key":"Astros @ Orioles","reason_code":"MISSING_GAME_TIME"}
+    ],
+    "warnings": ["Revisión previa hecha sin Contents API; raw docs/index.html no estuvo disponible antes de publicar."]
+  },
+  "audit_output": {
+    "date": "2026-04-30",
+    "audit_passed": true,
+    "severity": "pass",
+    "issues": [],
+    "checks": {
+      "no_momios_used": true,
+      "no_sportsbook_sources": true,
+      "no_market_lines_used": true,
+      "only_eligible_games_analyzed": true,
+      "probabilities_sum_to_100": true,
+      "props_have_sports_reasoning": true,
+      "no_betting_language": true
+    },
+    "summary": "Auditoría aprobada: análisis independiente sin fuentes de momios ni mercados de apuestas."
+  },
+  "games": [
+    {"matchup":"Cardinals @ Pirates","away_win_probability":0.45,"home_win_probability":0.55,"confidence":"medium"},
+    {"matchup":"Nationals @ Mets","away_win_probability":0.43,"home_win_probability":0.57,"confidence":"medium"},
+    {"matchup":"D-backs @ Brewers","away_win_probability":0.48,"home_win_probability":0.52,"confidence":"low-medium"},
+    {"matchup":"Royals @ Athletics","away_win_probability":0.46,"home_win_probability":0.54,"confidence":"medium"},
+    {"matchup":"Tigers @ Braves","away_win_probability":0.36,"home_win_probability":0.64,"confidence":"medium"},
+    {"matchup":"Astros @ Orioles","away_win_probability":0.47,"home_win_probability":0.53,"confidence":"low-medium"},
+    {"matchup":"Giants @ Phillies","away_win_probability":0.42,"home_win_probability":0.58,"confidence":"medium"},
+    {"matchup":"Rockies @ Reds","away_win_probability":0.40,"home_win_probability":0.60,"confidence":"medium"}
+  ]
+}
