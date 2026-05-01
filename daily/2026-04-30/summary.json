@@ -1,9 +1,23 @@
 {
-  "date":"2026-04-30",
-  "mode":"analisis_completo_incremental",
-  "timezone":"America/Mazatlan",
-  "source_urls":["https://www.mlb.com/starting-lineups/2026-04-30","https://www.mlb.com/scores/2026-04-30","https://www.mlb.com/standings/"],
-  "summary":{"total_games_found":11,"eligible_count":11,"skipped_count":0,"analyzed_cards":11,"pending_cards":0},
-  "incremental_update":{"should_update_index":true,"reason":"Actualización visual de estados, marcadores finales/en curso y streaks. No se recalcularon probabilidades ni props por cambios de score."},
-  "audit_output":{"audit_passed":true,"severity":"pass","checks":{"no_momios_used":true,"no_sportsbook_sources":true,"no_market_lines_used":true,"only_eligible_games_analyzed":true,"probabilities_sum_100":true,"props_have_sports_reasoning":true}}
+  "date": "2026-04-30",
+  "generated_at": "2026-05-01T00:00:00-07:00",
+  "source_url": "https://www.mlb.com/scores/2026-04-30",
+  "public_html_path": "docs/index.html",
+  "historical_html_path": "daily/2026-04-30/index.html",
+  "total_games_found": 11,
+  "eligible_games": 11,
+  "skipped_games": 0,
+  "audit_passed": true,
+  "published_via": "github_api",
+  "update_type": "visual_scores_refresh",
+  "notes": [
+    "Marcadores finales actualizados desde MLB Scores.",
+    "El score no se uso para recalcular analisis, probabilidades ni props.",
+    "No se usaron momios, lineas ni mercados de apuestas."
+  ],
+  "updated_games": [
+    {"matchup_key":"Giants @ Phillies - Makeup Apr 29","game_state_badge_text":"Finalizado (5-6)","score_display":"5-6"},
+    {"matchup_key":"Astros @ Orioles - Makeup Apr 29","game_state_badge_text":"Finalizado (11-5)","score_display":"11-5"},
+    {"matchup_key":"Blue Jays @ Twins","game_state_badge_text":"Finalizado (1-7)","score_display":"1-7"}
+  ]
 }
