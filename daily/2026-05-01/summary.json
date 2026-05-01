@@ -1,27 +1,41 @@
 {
   "date": "2026-05-01",
-  "generated_at": "2026-05-01T11:50:00-07:00",
+  "generated_at": "2026-05-01T14:05:00-07:00",
   "source_lineups_url": "https://www.mlb.com/starting-lineups/2026-05-01",
   "source_scores_url": "https://www.mlb.com/scores/2026-05-01",
   "public_html_path": "docs/index.html",
   "historical_html_path": "daily/2026-05-01/index.html",
   "total_games_found": 15,
-  "eligible_games": 5,
-  "skipped_games": 10,
+  "eligible_games": 13,
+  "skipped_games": 2,
   "analyzed_games": [
-    {"matchup_key":"D-backs @ Cubs","status":"in_progress","score_display":"1-6","away_win_probability":0.46,"home_win_probability":0.54},
-    {"matchup_key":"Rangers @ Tigers","status":"scheduled","away_win_probability":0.52,"home_win_probability":0.48},
-    {"matchup_key":"Reds @ Pirates","status":"scheduled","away_win_probability":0.55,"home_win_probability":0.45},
-    {"matchup_key":"Giants @ Rays","status":"scheduled","away_win_probability":0.47,"home_win_probability":0.53},
-    {"matchup_key":"Phillies @ Marlins","status":"scheduled","away_win_probability":0.52,"home_win_probability":0.48}
+    "D-backs @ Cubs",
+    "Rangers @ Tigers",
+    "Reds @ Pirates",
+    "Brewers @ Nationals",
+    "Orioles @ Yankees",
+    "Astros @ Red Sox",
+    "Giants @ Rays",
+    "Phillies @ Marlins",
+    "Blue Jays @ Twins",
+    "Dodgers @ Cardinals",
+    "Braves @ Rockies",
+    "Guardians @ Athletics",
+    "Royals @ Mariners"
   ],
-  "pending_count": 10,
+  "pending_games": [
+    "Mets @ Angels",
+    "White Sox @ Padres"
+  ],
+  "score_status_updates": [
+    {"matchup_key":"D-backs @ Cubs","game_state_badge_text":"Finalizado (5-6)","score_display":"5-6"}
+  ],
   "audit_passed": true,
   "published_via": "github_api",
-  "update_type": "incremental_lineups_and_status_refresh",
+  "update_type": "incremental_lineups_scores_refresh",
   "notes": [
-    "Se agregaron cuatro juegos nuevos elegibles con lineups completas.",
-    "D-backs @ Cubs se actualizo visualmente como juego en progreso con marcador visible.",
+    "Se agregaron ocho juegos elegibles nuevos respecto al reporte anterior.",
+    "D-backs @ Cubs se actualizo visualmente como finalizado.",
     "El marcador no se uso para recalcular analisis, probabilidades ni props.",
     "No se uso informacion de momios, lineas ni mercados de apuestas."
   ]
