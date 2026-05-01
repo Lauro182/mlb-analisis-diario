@@ -1,13 +1,13 @@
 {
   "date": "2026-05-01",
-  "generated_at": "2026-05-01T14:05:00-07:00",
+  "generated_at": "2026-05-01T15:35:00-07:00",
   "source_lineups_url": "https://www.mlb.com/starting-lineups/2026-05-01",
   "source_scores_url": "https://www.mlb.com/scores/2026-05-01",
   "public_html_path": "docs/index.html",
   "historical_html_path": "daily/2026-05-01/index.html",
   "total_games_found": 15,
-  "eligible_games": 13,
-  "skipped_games": 2,
+  "eligible_games": 15,
+  "skipped_games": 0,
   "analyzed_games": [
     "D-backs @ Cubs",
     "Rangers @ Tigers",
@@ -20,23 +20,26 @@
     "Blue Jays @ Twins",
     "Dodgers @ Cardinals",
     "Braves @ Rockies",
+    "Mets @ Angels",
     "Guardians @ Athletics",
+    "White Sox @ Padres",
     "Royals @ Mariners"
   ],
-  "pending_games": [
-    "Mets @ Angels",
-    "White Sox @ Padres"
-  ],
+  "pending_games": [],
   "score_status_updates": [
-    {"matchup_key":"D-backs @ Cubs","game_state_badge_text":"Finalizado (5-6)","score_display":"5-6"}
+    {"matchup_key":"D-backs @ Cubs","game_state_badge_text":"Finalizado (5-6)","score_display":"5-6"},
+    {"matchup_key":"Reds @ Pirates","game_state_badge_text":"Retrasado - lluvia","score_display":null},
+    {"matchup_key":"Rangers @ Tigers","game_state_badge_text":"Calentamiento (0-0)","score_display":"0-0"},
+    {"matchup_key":"Brewers @ Nationals","game_state_badge_text":"Calentamiento (0-0)","score_display":"0-0"}
   ],
   "audit_passed": true,
   "published_via": "github_api",
-  "update_type": "incremental_lineups_scores_refresh",
+  "update_type": "full_lineups_scores_refresh",
   "notes": [
-    "Se agregaron ocho juegos elegibles nuevos respecto al reporte anterior.",
-    "D-backs @ Cubs se actualizo visualmente como finalizado.",
-    "El marcador no se uso para recalcular analisis, probabilidades ni props.",
+    "Todos los juegos del dia quedaron elegibles con pitchers y lineups completas.",
+    "Se agregaron Mets @ Angels y White Sox @ Padres respecto al reporte anterior.",
+    "D-backs @ Cubs se mantiene como finalizado y Reds @ Pirates como retrasado por lluvia.",
+    "Los marcadores y estados no se usaron para recalcular analisis, probabilidades ni props.",
     "No se uso informacion de momios, lineas ni mercados de apuestas."
   ]
 }
