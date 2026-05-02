@@ -1,1 +1,33 @@
-{"date":"2026-05-02","mode":"analisis_parcial_corregido","source_url":"https://www.mlb.com/starting-lineups/2026-05-02","summary":{"total_games_found":15,"eligible_count":1,"skipped_count":14,"eligible_games":["Blue Jays @ Twins"],"reason":"Solo Blue Jays @ Twins tenía ambos pitchers y ambas lineups completas en MLB Starting Lineups al momento de la revisión."},"audit_output":{"audit_passed":true,"severity":"pass","checks":{"no_momios_used":true,"no_sportsbook_sources":true,"no_market_lines_used":true,"only_eligible_games_analyzed":true,"probabilities_sum_to_100":true,"props_have_sports_justification":true}},"correction_note":"Se reemplaza la publicación previa de 15 elegibles porque no estaba soportada por MLB Starting Lineups."}
+{
+  "date": "2026-05-02",
+  "mode": "analisis_completo_desde_cero",
+  "source_url": "https://www.mlb.com/starting-lineups/2026-05-02",
+  "local_timezone": "America/Mazatlan",
+  "total_games_found": 14,
+  "eligible_games": 3,
+  "skipped_games": 11,
+  "eligible_matchups": [
+    "Orioles @ Yankees",
+    "Blue Jays @ Twins",
+    "D-backs @ Cubs"
+  ],
+  "audit_output": {
+    "audit_passed": true,
+    "severity": "pass",
+    "checks": {
+      "no_momios_used": true,
+      "no_sportsbook_sources": true,
+      "no_market_lines_used": true,
+      "only_eligible_games_analyzed": true,
+      "probabilities_sum_to_100": true,
+      "props_have_sports_context": true
+    },
+    "issues": []
+  },
+  "publication_notes": [
+    "Rebuilt from zero because user reported bad data.",
+    "Only games confirmed complete on MLB Starting Lineups were analyzed.",
+    "Pending games were not analyzed and remain listed with reason codes.",
+    "Series badges omitted where no reliable series confirmation was obtained."
+  ]
+}
