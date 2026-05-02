@@ -1,33 +1,46 @@
 {
   "date": "2026-05-02",
-  "mode": "analisis_completo_desde_cero",
+  "mode": "incremental_update",
   "source_url": "https://www.mlb.com/starting-lineups/2026-05-02",
-  "local_timezone": "America/Mazatlan",
-  "total_games_found": 14,
-  "eligible_games": 3,
-  "skipped_games": 11,
-  "eligible_matchups": [
+  "published_path": "docs/index.html",
+  "summary": {
+    "total_games_found": 15,
+    "eligible_count": 9,
+    "skipped_count": 6,
+    "preserved_cards": 7,
+    "new_cards": 2,
+    "replaced_cards": 0,
+    "pending_cards": 6
+  },
+  "newly_eligible_games": [
+    "Brewers @ Nationals",
+    "Giants @ Rays"
+  ],
+  "preserved_games": [
     "Orioles @ Yankees",
     "Blue Jays @ Twins",
-    "D-backs @ Cubs"
+    "D-backs @ Cubs",
+    "Guardians @ Athletics",
+    "Reds @ Pirates",
+    "Astros @ Red Sox",
+    "Phillies @ Marlins"
+  ],
+  "still_pending_games": [
+    "Dodgers @ Cardinals",
+    "Rangers @ Tigers",
+    "Braves @ Rockies",
+    "White Sox @ Padres",
+    "Mets @ Angels",
+    "Royals @ Mariners"
   ],
   "audit_output": {
     "audit_passed": true,
     "severity": "pass",
     "checks": {
-      "no_momios_used": true,
       "no_sportsbook_sources": true,
-      "no_market_lines_used": true,
       "only_eligible_games_analyzed": true,
       "probabilities_sum_to_100": true,
-      "props_have_sports_context": true
-    },
-    "issues": []
-  },
-  "publication_notes": [
-    "Rebuilt from zero because user reported bad data.",
-    "Only games confirmed complete on MLB Starting Lineups were analyzed.",
-    "Pending games were not analyzed and remain listed with reason codes.",
-    "Series badges omitted where no reliable series confirmation was obtained."
-  ]
+      "visual_updates_do_not_recalculate_analysis": true
+    }
+  }
 }
